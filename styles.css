@@ -1,0 +1,154 @@
+
+#title {
+    background-color: #9ad69f;
+    position: relative;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+    background-image:url(images/Hollywood\ Sign.jpg);
+    background-position:center;
+    position: relative;
+}
+
+em {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+}
+
+h1 {
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 2rem;
+}
+
+h3 {
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 1.9rem;
+}
+
+p {
+    color: #8f8f8f;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+}
+
+
+.navbar {
+    padding: 0 0 4.5rem
+}
+.navbar-brand {
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 2.5rem;
+}
+.navbar-item {
+    padding: 0 18px;
+    font-weight: bold;
+
+}
+
+.nav-link {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+
+.resume-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 0%;
+}
+
+.icon {
+    color: rgb(214, 121, 34);
+    margin: 1rem;
+}
+
+.icon:hover {
+    color: #9ad69f;
+}
+
+
+
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+
+.pricing-header {
+    color: black;
+}
+
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+
+#cta {
+    background-color: #9ad69f;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+
+#footer {
+    padding: 0% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+
+
+@media (max-width: 1020px){
+
+    #title {
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+ }
+
+ .Projects-Title {
+text-align: center;
+ }
+
+ .About-Me {
+    text-align: center;
+     }
+
+
+     .timer-thing {
+        padding: 7% 15%;
+    text-align: center;
+     }

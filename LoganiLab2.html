@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Schedule for Sundeep Logani-cg3fa22an-Fall,2022</title>
+        <link href="styleLab2.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>Lab 2</h1>
+        <h3>Terms and Definitions</h3>
+        <dl>
+            <dt>How do you define a table in html?</dt>
+                <dd>Using the &#60;table&#62; element.</dd>
+            <dt>&#60;tr&#62;, &#60;th&#62;, &#60;td&#62;</dt>
+                <dd>&#60;tr&#62; defines a row in a table, &#60;th&#62; defines a heading cell in a table, and &#60;td&#62; defines only a cell in a table.</dd>
+            <dt>&#60;thead&#62;, &#60;tfoot&#62;, &#60;caption&#62;</dt>
+                <dd>&#60;thead&#62; groups heading content within a table together, &#60;tfoot&#62; groups all the footer content within a table togehter, and &#60;caption&#62; defines or labels a table with a specific caption.</dd>
+            <dt>Colspan vs. Rowspan</dt>
+                <dd>Colspan takes two horizontally adjacent table cells and combines them into one cell, while Rowspan does the same for two vertically adjacent cells.</dd>
+            <dt>Cell spacing vs Padding</dt>
+                <dd>While cell spacing defines the space within any given table cell, padding only defines the space between any given cell's boarder and any content present within the cell.</dd>
+            <dt>Table Borders in CSS</dt>
+                <dd>To define a table's border in CSS, you must first specify the class or element whose border needs to be changed, then use the border property to assign the border values like pixel border or solid vs. dashed. Additionally, the border-width property can be used to define the border width specifically.</dd>
+        </dl>
+        <table>
+            <caption>Sundeep Logani Weekly Schedule</caption>
+            <tr>
+                <td class="empty">Time</td>
+                <th>Monday</th>
+                <th>Teusday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+            <tr>
+                <th class="time">10:00-11:00</th>
+                <td>Chem 7L Lecture <br />(10:00-10:50)
+                    <a class="button" href="http://courses.ucsd.edu/coursemain.aspx?section=89702" target="_blank">Chem 7L Course (Book list, canvas etc.)</a>
+                </td>
+                <td></td>
+                <td>Chem 7L Lecture <br />(10:00-10:50)
+                    <a class="button" href="http://courses.ucsd.edu/coursemain.aspx?section=89702" target="_blank">Chem 7L Course (Book list, canvas etc.)</a>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th class="time">11:00-12:00</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th class="time">12:00-1:00</th>
+                <td>HDS 111 Lecture <br />(12:00-12:50)
+                    <a class="button" href="http://courses.ucsd.edu/coursemain.aspx?section=86432" target="_blank">HDS 111 Course (Book list, canvas etc.)</a>
+                </td>
+                <td></td>
+                <td>HDS 111 Lecture <br />(12:00-12:50)
+                    <a class="button" href="http://courses.ucsd.edu/coursemain.aspx?section=86432" target="_blank">HDS 111 Course (Book list, canvas etc.)</a>
+                </td>
+                <td></td>
+                <td>HDS 111 Lecture <br />(12:00-12:50)
+                    <a class="button" href="http://courses.ucsd.edu/coursemain.aspx?section=86432" target="_blank">HDS 111 Course (Book list, canvas etc.)</a>
+                </td>
+                <td></td>
+                <td rowspan="2">Board Game Club Meet <br />(12:00-2:00)
+                    <br />
+                    <image src="images/Monopoly.jpg" width="140"/>
+                    <a class="button" href="https://www.facebook.com/groups/1386474421677659/" target="_blank">UCSD Board Game Club Facebook Group</a>
+                </td>
+            </tr>
+            <tr>
+                <th class="time">1:00-2:00</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th class="time">2:00-3:00</th>
+                <td>Cogs 3 Discussion <br />(2:00-2:50)
+                    <a class="button" href="https://pages.ucsd.edu/~mboyle/COGS3/index.html" target="_blank">Cogs 3 Homepage</a>
+                </td>
+                <td rowspan="3">Chem 7L Lab <br />(2:00-4:50)
+                    <a class="button" href="http://courses.ucsd.edu/coursemain.aspx?section=89702" target="_blank">Chem 7L Course (Book list, canvas etc.)</a>
+                </td>
+                <td></td>
+                <td rowspan="3">Chem 7L Lab <br />(2:00-4:50)
+                    <a class="button" href="http://courses.ucsd.edu/coursemain.aspx?section=89702" target="_blank">Chem 7L Course (Book list, canvas etc.)</a>
+                </td>
+                <td></td>
+                <td rowspan="2">Play D&D with Friends <br />(2:00-4:00)
+                    <br />
+                    <image src="images/CurseOfStrahd.jpg" width="100"/>
+                    <a class="button" href="https://dnd.wizards.com/products/curse-strahd-revamped" target="_blank">Curse of Strahd Campaign</a>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <th class="time">3:00-4:00</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th class="time">4:00-5:00</th>
+                <td>Psyc 1 Lecture <br />(4:00-4:50)
+                    <a class="button" href="http://courses.ucsd.edu/coursemain.aspx?section=88391" target="_blank">Psyc 1 Course (Book list, canvas etc.)</a>
+                </td>
+                <td>Psyc 1 Lecture <br />(4:00-4:50)
+                    <a class="button" href="http://courses.ucsd.edu/coursemain.aspx?section=88391" target="_blank">Psyc 1 Course (Book list, canvas etc.)</a>
+                </td>
+                <td>Psyc 1 Lecture <br />(4:00-4:50)
+                    <a class="button" href="http://courses.ucsd.edu/coursemain.aspx?section=88391" target="_blank">Psyc 1 Course (Book list, canvas etc.)</a>
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th class="time">5:00-6:00</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th class="time">6:00-7:00</th>
+                <td></td>
+                <td rowspan="2">Cogs 3 Lecture <br />(6:30-7:50)
+                    <a class="button" href="https://pages.ucsd.edu/~mboyle/COGS3/index.html" target="_blank">Cogs 3 Homepage</a>
+                </td>
+                <td></td>
+                <td rowspan="2">Cogs 3 Lecture <br />(6:30-7:50)
+                    <a class="button" href="https://pages.ucsd.edu/~mboyle/COGS3/index.html" target="_blank">Cogs 3 Homepage</a>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th class="time">7:00-8:00</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </body>
+</html>
